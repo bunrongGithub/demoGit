@@ -4,10 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Navigation Bar</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./footer/footer.css" />
     <!-- Link to your CSS file -->
   </head>
   <style>
+
+    /* Basic CSS Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 300px; /* Adjust width as needed */
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #333;
+}
+
+
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -53,5 +95,60 @@
       <a href="#services">Services</a>
       <a href="#contact">Contact</a>
     </div>
+    <div class="container">
+      <div class="card">
+          <img style="width: 100%; height: 100%; " src="https://cdn.pixabay.com/photo/2018/03/11/17/36/coffee-3217471_640.png" alt="">
+          <h2>Card 1</h2>
+          <p>This is the content of card 1.</p>
+      </div>
+      <div class="card">
+          <img style="width: 100%; height: 100%; " src="https://cdn.pixabay.com/photo/2018/03/11/17/36/coffee-3217471_640.png" alt="">
+          <h2>Card 1</h2>
+          <p>This is the content of card 1.</p>
+      </div>
+      <div class="card">
+          <img style="width: 100%; height: 100%; " src="https://cdn.pixabay.com/photo/2018/03/11/17/36/coffee-3217471_640.png" alt="">
+          <h2>Card 1</h2>
+          <p>This is the content of card 1.</p>
+      </div>
+  </div>
+    <footer class="cover">
+      <div class="box">
+        <p>
+          As a writer, I’m always looking for ways to share my stories with new
+          audiences. So, when I find a publication that matches my interests, I
+          want to see how I can contribute. However, on most blogs and news
+          sites, the navigation bar is for the readers — telling them what
+          stories they can find where
+        </p>
+        <div class="icon">
+          <a href=""><i style="color: blue;" class="fa-brands fa-facebook"></i></a>
+          <a href=""><i style="color: rgb(94, 191, 227)"  class="fa-brands fa-telegram"></i></a>
+          <a href=""><i style="color: red;"  class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="box">
+        <p>
+          As a writer, I’m always looking for ways to share my stories with new
+          audiences. So, when I find a publication that matches my interests, I
+          want to see how I can contribute. However, on most blogs and news
+          sites, the navigation bar is for the readers — telling them what
+          stories they can find where
+        </p>
+        Email:<input type="text" />
+      </div>
+      <div class="box">
+        <p>
+          The website footer is the section of content at the very bottom of a
+          web page. It typically contains a copyright notice, link to a privacy
+          policy, sitemap, logo, contact information, social media icons, and an
+          email sign-up form. In short, aThe website footer is the section of
+          content at the very bottom of a web page. It typically contains a
+          copyright notice, link to a privacy policy, sitemap, logo, contact
+          information, social media icons, and an email sign-up form. In short,
+          a
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
