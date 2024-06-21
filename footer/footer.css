@@ -1,0 +1,30 @@
+div{
+    color: white;
+}
+.cover{
+    width: 80%;
+    height: 300px;
+    background-color: black;
+    margin: auto;
+    display: flex;
+    gap: 2%;
+    padding: 10px;
+
+}
+.box{
+    width: 33.3%;
+    height: 100%;
+    
+}
+.icon{
+    width: 150px;
+    margin: auto;
+}
+.icon i{
+    font-size: 25px;
+    margin: 10px;
+}
+input{
+    height: 20px;
+    margin-left: 20px;
+}
